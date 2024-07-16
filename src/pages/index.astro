@@ -1,0 +1,19 @@
+---
+// src/pages/index.astro
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+---
+
+<!-- You can replace the card's data with your own here. -->
+<BaseLayout title="Anshita Shedha" description="Anshita Shedha's Personal Website.">
+	<Card
+	  name="Anshita Shedha"
+	  position=""
+    aboutMe={`Driving growth through strategic content and storytelling.`}
+	  linkedin="https://www.linkedin.com/in/anshi1/"
+    email="mailto: shedha.anshtia@gmail.com"
+    cvLink="./files/resume-cv.pdf"
+    profileImage="./images/profile.jpeg"
+	/>
+</BaseLayout>
